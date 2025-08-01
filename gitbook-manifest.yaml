@@ -1,0 +1,21 @@
+name: hallway
+title: hallway
+icon: src/assets/icon.png
+script: src/index.tsx
+description: 'Add the Hallway AI integration to your GitBook.'
+scopes:
+  - space:content:read
+  - space:metadata:read
+  - space:views:read
+  - site:metadata:read
+  - site:adaptive:read
+blocks:
+  - id: hello-world
+    title: Hello World Block
+    description: Interactive button component for testing
+  - id: hallway-embed
+    title: Hallway AI Embed
+    description: Embed Hallway AI content in your GitBook pages
+organization: 6RNegYDRiHY4yDCNqHbm
+visibility: public
+secrets: {}
